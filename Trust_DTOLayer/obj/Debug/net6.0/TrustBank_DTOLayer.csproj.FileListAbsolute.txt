@@ -1,0 +1,14 @@
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\bin\Debug\net6.0\TrustBank_DTOLayer.deps.json
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\bin\Debug\net6.0\TrustBank_DTOLayer.runtimeconfig.json
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\bin\Debug\net6.0\TrustBank_DTOLayer.dll
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\bin\Debug\net6.0\TrustBank_DTOLayer.pdb
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.csproj.AssemblyReference.cache
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.AssemblyInfoInputs.cache
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.AssemblyInfo.cs
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.csproj.CoreCompileInputs.cache
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.dll
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\refint\TrustBank_DTOLayer.dll
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.pdb
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\TrustBank_DTOLayer.genruntimeconfig.cache
+D:\C#-Asp_Projeler\TrustBank\Trust_DTOLayer\obj\Debug\net6.0\ref\TrustBank_DTOLayer.dll

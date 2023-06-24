@@ -1,0 +1,1 @@
+﻿wwwroot da default css js ve lib i sil kullanılmazsa

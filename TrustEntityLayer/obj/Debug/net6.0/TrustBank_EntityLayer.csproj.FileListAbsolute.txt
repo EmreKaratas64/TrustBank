@@ -1,0 +1,14 @@
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\bin\Debug\net6.0\TrustBank_EntityLayer.deps.json
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\bin\Debug\net6.0\TrustBank_EntityLayer.runtimeconfig.json
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\bin\Debug\net6.0\TrustBank_EntityLayer.dll
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\bin\Debug\net6.0\TrustBank_EntityLayer.pdb
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.csproj.AssemblyReference.cache
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.AssemblyInfoInputs.cache
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.AssemblyInfo.cs
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.csproj.CoreCompileInputs.cache
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.dll
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\refint\TrustBank_EntityLayer.dll
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.pdb
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\TrustBank_EntityLayer.genruntimeconfig.cache
+D:\C#-Asp_Projeler\TrustBank\TrustEntityLayer\obj\Debug\net6.0\ref\TrustBank_EntityLayer.dll
