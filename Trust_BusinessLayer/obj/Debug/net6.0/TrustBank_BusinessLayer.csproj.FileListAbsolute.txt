@@ -17,3 +17,5 @@ D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\obj\Debug\net6.0\refint\TrustBa
 D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\obj\Debug\net6.0\TrustBank_BusinessLayer.pdb
 D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\obj\Debug\net6.0\TrustBank_BusinessLayer.genruntimeconfig.cache
 D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\obj\Debug\net6.0\ref\TrustBank_BusinessLayer.dll
+D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\bin\Debug\net6.0\TrustBank_DTOLayer.dll
+D:\C#-Asp_Projeler\TrustBank\Trust_BusinessLayer\bin\Debug\net6.0\TrustBank_DTOLayer.pdb

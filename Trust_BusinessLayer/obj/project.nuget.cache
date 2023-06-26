@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DFjj7WHQw2jP0qHo+t1WfoZnjyFMwbzcSZns2hRE95uNBZhmGIsOmhRh7ZItSHVq8YP+hWbytHTfRlnswJyQnQ==",
+  "dgSpecHash": "n5gQk7CaDrpBslgvVCv1Jqq6vI8abNBzXIC4UZS/9VmATRmcYbxWDm+/UMLSscDPpJ/HlPgsrzFViL0bGypGsw==",
   "success": true,
   "projectFilePath": "D:\\C#-Asp_Projeler\\TrustBank\\Trust_BusinessLayer\\TrustBank_BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.19\\microsoft.aspnetcore.cryptography.internal.6.0.19.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.19\\microsoft.aspnetcore.cryptography.keyderivation.6.0.19.nupkg.sha512",

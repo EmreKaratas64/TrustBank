@@ -79,3 +79,7 @@ D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\refint
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\TrustBank_PresentationLayer.pdb
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\TrustBank_PresentationLayer.genruntimeconfig.cache
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\ref\TrustBank_PresentationLayer.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\TrustBank_PresentationLayer.MvcApplicationPartsAssemblyInfo.cs

@@ -1,7 +1,13 @@
+using TrustBank_DataAccessLayer.Concrete;
+using TrustBank_EntityLayer.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+/*.AddErrorDescriber<CustomIdentityValidator>();*/
 
 var app = builder.Build();
 

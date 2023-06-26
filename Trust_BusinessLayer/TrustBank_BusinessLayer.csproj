@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.19" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.19">
       <PrivateAssets>all</PrivateAssets>
@@ -22,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TrustDataAccessLayer\TrustBank_DataAccessLayer.csproj" />
     <ProjectReference Include="..\TrustEntityLayer\TrustBank_EntityLayer.csproj" />
+    <ProjectReference Include="..\Trust_DTOLayer\TrustBank_DTOLayer.csproj" />
   </ItemGroup>
 
 </Project>

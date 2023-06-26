@@ -316,6 +316,9 @@
               },
               "D:\\C#-Asp_Projeler\\TrustBank\\TrustEntityLayer\\TrustBank_EntityLayer.csproj": {
                 "projectPath": "D:\\C#-Asp_Projeler\\TrustBank\\TrustEntityLayer\\TrustBank_EntityLayer.csproj"
+              },
+              "D:\\C#-Asp_Projeler\\TrustBank\\Trust_DTOLayer\\TrustBank_DTOLayer.csproj": {
+                "projectPath": "D:\\C#-Asp_Projeler\\TrustBank\\Trust_DTOLayer\\TrustBank_DTOLayer.csproj"
               }
             }
           }
@@ -330,6 +333,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.19, )"
