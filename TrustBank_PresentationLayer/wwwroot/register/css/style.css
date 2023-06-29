@@ -185,11 +185,15 @@ input[type="submit"]:hover {
     color: #537b35;
 }
 
+.aitssendbuttonw3ls {
+	margin-top: 20px;
+}
+
 .aitssendbuttonw3ls p {
-    text-align: center;
-    margin-top: 40px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+	text-align: center;
+	margin-top: 40px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 
 .aitssendbuttonw3ls p a {
@@ -260,7 +264,6 @@ label.checkbox {
 }
 
 label {
-    color: #000;
     font-size: 15px;
 }
 input[type="checkbox"] {
