@@ -264,3 +264,7 @@ D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\runtim
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\MailKit.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\MimeKit.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\NETCore.MailKit.dll
+D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\BouncyCastle.Crypto.dll

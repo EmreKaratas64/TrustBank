@@ -1,0 +1,31 @@
+﻿@model ConfirmMail
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TrustBank - Mail Onay</title>
+  
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <br />
+        <h2>TrustBank Mail Onaylama</h2>
+        <br />
+        <form method="post">
+            <input class="form-control" placeholder="Mail" type="text" asp-for="Mail" value="@ViewBag.mail"/>
+            <span class="text-danger" asp-validation-for="Mail"></span>
+            <br />
+            <input class="form-control" placeholder="Onay kodu" type="text" asp-for="ConfirmCode"/>
+            <br />
+            <button type="submit" class="btn btn-success">Onayla</button>
+        </form>
+    </div>
+</body>
+</html>
