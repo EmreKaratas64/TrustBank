@@ -11,10 +11,12 @@ namespace TrustBank_PresentationLayer.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public AccountController(UserManager<AppUser> userManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         [HttpGet]
@@ -94,11 +96,34 @@ namespace TrustBank_PresentationLayer.Controllers
                 {
                     user.EmailConfirmed = true;
                     await _userManager.UpdateAsync(user);
-                    return RedirectToAction("Dashboard", "User");
+                    return RedirectToAction("Login", "Account");
                 }
             }
-
             return View(confirmMail);
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(AppUserLoginDto appUserLoginDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(appUserLoginDto.UserName, appUserLoginDto.Password, appUserLoginDto.RememberMe, true);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Dashboard", "User");
+                }
+                else if (result.IsNotAllowed)
+                    ModelState.AddModelError("", "Lütfen mail adresinizi doğrulayınız");
+                else
+                    ModelState.AddModelError("", "Kullanıcı adı veya şifre hatalı");
+            }
+            return View(appUserLoginDto);
         }
     }
 }

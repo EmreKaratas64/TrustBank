@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    @await Html.PartialAsync("~/Views/Customer/CustomerLayoutHeaderPartial.cshtml")
+  
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+                  
+        @await Component.InvokeAsync("CustomerLayoutLeftBarPartial")
+       
+        @await Component.InvokeAsync("CustomerLayoutTopNavbarPartial")
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                @RenderBody()
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        @await Html.PartialAsync("~/Views/Customer/CustomerLayoutFooterPartial.cshtml")
+        <!-- /footer content -->
+      </div>
+    </div>
+
+     @await Html.PartialAsync("~/Views/Customer/CustomerLayoutScriptsPartial.cshtml")
+  </body>
+</html>
