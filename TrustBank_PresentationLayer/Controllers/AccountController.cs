@@ -116,7 +116,7 @@ namespace TrustBank_PresentationLayer.Controllers
                 var result = await _signInManager.PasswordSignInAsync(appUserLoginDto.UserName, appUserLoginDto.Password, appUserLoginDto.RememberMe, true);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Dashboard", "User");
+                    return RedirectToAction("Profile", "Customer");
                 }
                 else if (result.IsNotAllowed)
                     ModelState.AddModelError("", "Lütfen mail adresinizi doğrulayınız");

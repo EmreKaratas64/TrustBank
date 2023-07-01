@@ -1,3 +1,4 @@
+using TrustBank_BusinessLayer.Container;
 using TrustBank_DataAccessLayer.Concrete;
 using TrustBank_EntityLayer.Concrete;
 using TrustBank_PresentationLayer.Models;
@@ -5,6 +6,7 @@ using TrustBank_PresentationLayer.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.CustomValidator();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>(options =>

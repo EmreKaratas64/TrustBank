@@ -77,7 +77,6 @@ D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\ref\Tr
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\obj\Debug\net6.0\TrustBank_PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\MessagePack.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\MessagePack.Annotations.dll
 D:\C#-Asp_Projeler\TrustBank\TrustBank_PresentationLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
