@@ -1,5 +1,9 @@
+using TrustBank_BusinessLayer.Abstract;
+using TrustBank_BusinessLayer.Concrete;
 using TrustBank_BusinessLayer.Container;
+using TrustBank_DataAccessLayer.Abstract;
 using TrustBank_DataAccessLayer.Concrete;
+using TrustBank_DataAccessLayer.EntityFramework;
 using TrustBank_EntityLayer.Concrete;
 using TrustBank_PresentationLayer.Models;
 
@@ -14,6 +18,9 @@ builder.Services.AddIdentity<AppUser, AppRole>(options =>
     options.User.RequireUniqueEmail = true;
     options.SignIn.RequireConfirmedEmail = true;
 }).AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
+
+builder.Services.AddScoped<ICustomerAccountActivityDal, EfCustomerAccountActivityDal>();
+builder.Services.AddScoped<ICustomerAccountActivityService, CustomerAccountActivityManager>();
 
 var app = builder.Build();
 

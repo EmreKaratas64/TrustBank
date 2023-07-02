@@ -4,7 +4,7 @@ using TrustBank_EntityLayer.Concrete;
 
 namespace TrustBank_DataAccessLayer.EntityFramework
 {
-    public class EfCustomerAccountActivityDal : GenericRepository<CustomerAccount>, ICustomerAccountDal
+    public class EfCustomerAccountActivityDal : GenericRepository<CustomerAccountActivity>, ICustomerAccountActivityDal
     {
     }
 }

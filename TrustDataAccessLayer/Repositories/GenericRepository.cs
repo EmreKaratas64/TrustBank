@@ -26,11 +26,13 @@ namespace TrustBank_DataAccessLayer.Repositories
         public void Insert(T entity)
         {
             context.Set<T>().Add(entity);
+            context.SaveChanges();
         }
 
         public void Update(T entity)
         {
             context.Set<T>().Update(entity);
+            context.SaveChanges();
         }
     }
 }

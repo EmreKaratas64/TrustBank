@@ -11,6 +11,23 @@ namespace TrustBank_DataAccessLayer.Concrete
             optionsBuilder.UseSqlServer("server=DESKTOP-NKLMS7G\\MSSQLSERVER01;initial catalog=TrustBankDB;integrated Security=true");
         }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<CustomerAccountActivity>()
+                .HasOne(x => x.SenderCustomer)
+                .WithMany(y => y.CustomerSender)
+                .HasForeignKey(z => z.SenderID)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+
+            builder.Entity<CustomerAccountActivity>()
+                .HasOne(x => x.ReceiverCustomer)
+                .WithMany(y => y.CustomerReceiver)
+                .HasForeignKey(z => z.ReceiverID)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+
+            base.OnModelCreating(builder);
+        }
+
         public DbSet<CustomerAccount> CustomerAccounts { get; set; }
 
         public DbSet<CustomerAccountActivity> CustomerAccountsActivities { get; set; }
