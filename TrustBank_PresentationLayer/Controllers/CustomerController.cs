@@ -65,8 +65,9 @@ namespace TrustBank_PresentationLayer.Controllers
         }
 
         [HttpGet]
-        public IActionResult SendMoney()
+        public IActionResult SendMoney(string mycurrency)
         {
+            ViewBag.mycurrency = mycurrency;
             return View();
         }
 
@@ -76,7 +77,7 @@ namespace TrustBank_PresentationLayer.Controllers
             var context = new Context();
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var receiverAccountNumberID = context.CustomerAccounts.Where(x => x.CustomerAccountNumber == customerSendMoneyDto.ReceiverAccountNumber).Select(y => y.CustomerAccountID).FirstOrDefault();
-            var senderAccountNumberId = context.CustomerAccounts.Where(x => x.AppUserID == user.Id).Select(y => y.CustomerAccountID).FirstOrDefault();
+            var senderAccountNumberId = context.CustomerAccounts.Where(x => x.AppUserID == user.Id).Where(z => z.CustomerAccountCurrency == "TRY").Select(y => y.CustomerAccountID).FirstOrDefault();
 
             var values = new CustomerAccountActivity()
             {

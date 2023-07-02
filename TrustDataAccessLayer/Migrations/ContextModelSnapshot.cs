@@ -291,7 +291,6 @@ namespace TrustBank_DataAccessLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ActivityDescription")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ActivityType")
