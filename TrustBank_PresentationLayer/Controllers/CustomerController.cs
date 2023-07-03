@@ -11,7 +11,6 @@ namespace TrustBank_PresentationLayer.Controllers
     public class CustomerController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
-        //CustomerAccountActivityManager customerAccountActivityManager = new CustomerAccountActivityManager(new EfCustomerAccountActivityDal());
         private readonly ICustomerAccountActivityService _customerAccountActivityService;
         public CustomerController(UserManager<AppUser> userManager, ICustomerAccountActivityService customerAccountActivityService)
         {
@@ -92,6 +91,10 @@ namespace TrustBank_PresentationLayer.Controllers
             return RedirectToAction("Profile", "Customer");
         }
 
+        public IActionResult LastOperations()
+        {
+            return View();
+        }
 
         public PartialViewResult CustomerLayoutHeaderPartial()
         {
